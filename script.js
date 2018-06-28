@@ -52,3 +52,31 @@ tweets.splice(1,1); // delete array element
 console.log(tweets);
 tweets.splice(1, 0, "breakfast");//delete and add new element
 console.log(tweets);
+ //if statements
+ var x = 2;
+
+
+ 
+//  var password = document.getElementById("password").value;
+
+ document.getElementById("submit").onclick = function(){
+        var username = document.getElementById("username").value;
+        var myUsername = "Ula";
+        if (username == myUsername){
+            alert("correct!");
+        }
+        else {
+            alert("try again");
+        }
+ }
+   var username2 = document.getElementById("username2").value
+ if (username2 == "Ula") {
+    document.getElementById("submit2").onclick = function(){
+        alert("login success");
+    }
+ }
+ else{
+     document.getElementById("submit2").onclick = function(){
+        alert("login failed");
+    }
+ }
