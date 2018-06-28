@@ -40,3 +40,15 @@ document.getElementById("click").onclick = function(){
     textChanger = document.getElementById("textChange").value;
     document.getElementById("clickChangePar").innerHTML = textChanger;
 }
+
+var myArray = new Array();
+myArray[0] = "pizza";
+myArray[1] = "chocolate";
+var tweets  = ["Morning everybody!", "I love coffe"];
+    tweets.push("back to work");
+console.log(tweets);
+console.log(myArray.length);
+tweets.splice(1,1); // delete array element
+console.log(tweets);
+tweets.splice(1, 0, "breakfast");//delete and add new element
+console.log(tweets);
