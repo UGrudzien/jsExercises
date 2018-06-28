@@ -5,6 +5,7 @@
 
  float: left;
  margin: 50px;
+ 
 }
 #redCircle{
     background-color: red;
@@ -15,4 +16,5 @@
 }
 #greenCircle{
     background-color: green;
+   
 }

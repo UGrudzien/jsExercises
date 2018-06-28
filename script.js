@@ -30,3 +30,13 @@ document.getElementById("blueCircle").onclick = function(){
 document.getElementById("greenCircle").onclick = function(){
     document.getElementById("greenCircle").style.display = "none";
 }
+// var x = 5;
+// var name = "Rob";
+// alert(x + name);
+
+document.getElementById("click").onclick = function(){
+    // document.getElementById("clickChangePar").innerHTML = "the test has been changed";
+    var textChanger = "";
+    textChanger = document.getElementById("textChange").value;
+    document.getElementById("clickChangePar").innerHTML = textChanger;
+}
